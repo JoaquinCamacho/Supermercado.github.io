@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #6b3e2e;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #e3c099;
+}
+
+footer{
+    background-color: #6b3e2e;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+}
+
+.img-carrito{
+    width: 50px;;
+    height: 50px;
+}
+
+
+
+
+    /* CARRITO */
+
+
+
+
+
+.carrito{
+
+    width: 250px;
+    height: 400px;    
+
+    position: absolute;
+    right: 0px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    background-color: #ab956f;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    
+}
+
+
+.carrito .arriba{
+    width: 100%;
+}
+
+.arriba h3{
+    font-size: 20px;
+    overflow-y: auto;
+}
+
+.arriba p{
+    font-size: 15px;
+    }
+
+    .carrito table{
+        width: 100%;
+        height: 150px;
+        background-color: rgb(224, 224, 224);
+        margin-top:20px;
+        
+        border-radius: 5px;
+    }
+
+    .carrito tbody {
+        max-height: 200px;   
+        overflow-y: auto;    
+        display: block;     
+    }
+
+    .carrito tbody tr {
+        display: flex;       
+        justify-content: space-between;
+    }
+
+    
+
+
+
+
+
+    .abajo{
+        width: 100%;
+        
+    }
+
+
+
+    .abajo .precios{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: rgb(224, 224, 224);
+        margin-top: 20px;
+        
+        align-items: center;
+    }
+
+.precios p{
+    font-size: 15px;
+}    
+
+.abajo .botones{
+    width: 100%;
+}
+
+
+.bolsa:hover .carrito{
+    display: block;
+}
+
+
+.botones button{
+    padding: 10px;
+    width: 100%;  
+    font-size: 12px;
+
+    border: none;
+    background-color: #4f2e22;
+    border-radius: 3px;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.botones button:active{
+    background-color: #331e16;
+}
+
+
+.bolsa{
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+.cuenta{
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 9px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: -7px;
+    bottom: 65px;
+}
+
+
+
+
+/* PRODUCTOS */
+
+
+
+
+
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.prodc{
+    width: 240px ;
+    height: 270px;
+    
+}
+
+.contenedor{
+    background-color: #c38452;
+    margin: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.contenedor:hover{
+    box-shadow: 0 10px 20px black;
+}
+
+.datos{
+    width: 250px;
+    text-align: center;
+    background-color: #79564440;
+    border-radius: 3px;
+    border: 1px #5c413340 solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.datos h3{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.datos p{
+    font-size: 1.2rem;
+    color: #6a3800;
+    margin-bottom: 20px;
+}
+
+.boton{
+    background-color: #6b3e2e;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.boton:hover{
+    background-color:#4f2e22 ;
+}
+
+
+/* FOOTER */
+
+
+
+.redes{
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+}

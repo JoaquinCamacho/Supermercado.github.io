@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img":"./imagenes/fernett-Photoroom.png",
+        "nombre":"Fernet",
+        "precio": 4000
+    },
+    {
+        "id": 2,
+        "img":"./imagenes/vodka-Photoroom.png",
+        "nombre":"Vodka",
+        "precio": 5000
+    },
+    {
+        "id": 3,
+        "img":"./imagenes/vino.png",
+        "nombre":"Vino",
+        "precio": 2500
+    },
+    {
+        "id": 4,
+        "img":"./imagenes/ron-Photoroom.png",
+        "nombre":"Ron",
+        "precio": 6500
+    },
+    {
+        "id": 5,
+        "img":"./imagenes/whisky (2) (1).png",
+        "nombre":"Whisky",
+        "precio": 10000
+    },
+    {
+        "id": 6,
+        "img":"./imagenes/gin (1).png",
+        "nombre":"Gin",
+        "precio": 15000
+    },
+    {
+        "id": 7,
+        "img":"./imagenes/chandon.png",
+        "nombre":"Chandon",
+        "precio": 20000
+    },
+    {
+        "id": 8,
+        "img":"./imagenes/hielo-Photoroom.png",
+        "nombre":"Hielo",
+        "precio": 1000
+    }
+]
